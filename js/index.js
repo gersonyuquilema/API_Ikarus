@@ -6,8 +6,8 @@ const listData = async () => {
         <td class='centered'></td>
         <td class='centered'>${data.data[0].lat}</td>
         <td class='centered'>${data.data[0].lon}</td>
-        <td class='centered'>${data.data[0].timezone}</td>
-        <td class='centered'>${data.data[0].datetime}</td>
+        <td class='centered'>${data.data[0].sunrise}</td>
+        <td class='centered'>${data.data[0].ob_time}</td>
         <td class='centered'>${data.data[0].city_name}</td>
         <td class='centered'>${data.data[0].wind_spd}</td>
         <td class='centered'>${data.data[0].temp}</td>
